@@ -1,4 +1,4 @@
-<img width="698" height="547" alt="изображение" src="https://github.com/user-attachments/assets/546ee017-af4f-418d-8854-c5fbc8874649" />    Запрос выполнен
+<img width="698" height="547" alt="изображение" src="https://github.com/user-attachments/assets/546ee017-af4f-418d-8854-c5fbc8874649" /> 
 
 Stronghold 2 AI Enabler for Proton
 
