@@ -1,4 +1,4 @@
-<img width="698" height="547" alt="изображение" src="https://github.com/user-attachments/assets/546ee017-af4f-418d-8854-c5fbc8874649" /> 
+<img width="699" height="556" alt="изображение" src="https://github.com/user-attachments/assets/cd010b4e-37a3-46d8-b098-88ebd468af0b" />
 
 Stronghold 2 AI Enabler for Proton
 
@@ -8,6 +8,7 @@ This application is designed for Linux and uses the PyQt5 library for its graphi
 
 Instructions
 
+English
 
 1. Prerequisites
 
@@ -29,15 +30,11 @@ Instructions
 chmod +x stronghold2_patcher.py
 
 Run the script from the terminal:
-
 Bash
 
     ./stronghold2_patcher.py
 
     The application will ask for your administrator password via a graphical prompt (pkexec).
-
-    <img width="698" height="547" alt="изображение" src="https://github.com/user-attachments/assets/75fb346b-a27a-4ee3-bed5-5489799f5b6d" />
-
 
 3. Using the Application
 
