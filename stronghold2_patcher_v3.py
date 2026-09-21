@@ -21,13 +21,6 @@ Safety: the tool only ever flips those two bytes (and only when they currently
 read something other than 1). Before writing, the pointed-to object is
 validated by resolving its RTTI type name - if the object is not a
 ScenarioLobbyScreen the tool reports it instead of poking random memory.
-
-Usage:
-    ./stronghold2_patcher_v3.py              # normal GUI
-    ./stronghold2_patcher_v3.py --demo       # UI demo, no game / no root needed
-    ./stronghold2_patcher_v3.py --screenshot out.png   # render the UI offscreen
-
-Developed by Alley
 """
 
 import errno
@@ -711,13 +704,13 @@ class DemoWorker(QThread):
         base = 0x00400000
         pointer = 0x04ED7440
         metrics = {
-            "pid": 0, "base": 0, "path": "/home/kekchik/.local/share/Steam/steamapps/"
+            "pid": 0, "base": 0, "path": "/home/user/.local/share/Steam/steamapps/"
                                      "common/Stronghold 2/Stronghold2.exe",
             "object": 0, "object_type": None,
             "flags": {}, "flag_addrs": {}, "unlocks": {},
             "writes": 0, "activations": 0, "image_size": 0x27E0000,
             "exe_size": REFERENCE_EXE_SIZE,
-            "exe_sha": "3f1c0e9d8b7a6f5e4d3c2b1a0f9e8d7c6b5a4938271605f4e3d2c1b0a9f8e7d6",
+            "exe_sha": "0123456789abcdef" * 4,
             "state": "idle",
         }
         while self.running:
