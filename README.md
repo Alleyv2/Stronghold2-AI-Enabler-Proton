@@ -1,7 +1,5 @@
 # Stronghold 2 AI Enabler for Proton
 
-**Version 3** · see [CHANGELOG_v3.md](CHANGELOG_v3.md) for the full list of changes since v2
-
 <img width="699" height="556" alt="Stronghold 2 AI Enabler" src="https://github.com/user-attachments/assets/cd010b4e-37a3-46d8-b098-88ebd468af0b" />
 
 Enables AI (bots) in Stronghold 2 multiplayer games on Linux running under Proton. The tool
